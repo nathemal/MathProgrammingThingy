@@ -5,11 +5,6 @@ public class TiltPlatform : MonoBehaviour
     public float speed = 2.0f;
     public float angle = 30.0f;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         Rigidbody rigidbody = GetComponent<Rigidbody>();
